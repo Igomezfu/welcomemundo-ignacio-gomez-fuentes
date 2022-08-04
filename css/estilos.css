@@ -73,7 +73,7 @@ p{
 .arriba{
     
     font-weight: bolder;
-    font-size: 60%;
+    font-size: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color:rgb(185, 114, 21);
@@ -84,7 +84,7 @@ p{
 
 .subtitulos{
     font-weight: bolder;
-    font-size: 300%;
+    font-size: 200%;
     font-family: 'Barlow', sans-serif;
     text-align: left;
     color:rgb(235, 104, 57);
@@ -106,14 +106,14 @@ p{
 .redes{
     
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 200%;
     font-family: 'Barlow', sans-serif;
-    text-align: center;
+    text-align:center;
     color:rgb(235, 104, 57);
     text-decoration: none;
     height: auto;
-    width: 40%;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
     background-image: linear-gradient(to top, #ffc75f, #e4ad4b, #ca9437, #b07c22, #96650b);
     
 }
@@ -126,7 +126,6 @@ p{
     align-items: center;
     
 }
-
 
 img{
     width: 40%;
@@ -158,12 +157,41 @@ img{
     grid-template-rows: auto;
     
 }
+.transform{
+    width: 240px;
+    height: 240px;
+    transform:rotate(270deg);
 
-@media  (max-with: 600px){    
+}
+.transform2{transform:rotate(270deg)}
+
+
+
+.zoom:hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+.formu{
+    
+    transition: all 1s;
+}
+.formu:focus{
+    width:30% ;
+    font-size: 60%;
+}
+.logo{
+
+   position: absolute;
+   width: 10%;
+  
+    
+}
+
+@media  (max-width: 600px){    
     .arriba{
         font-size: 20%;
     }
-    .h1{    
+    h1{    
         font-size:150%;}
     .primerParrafo{
         font-size: 100%;
@@ -175,14 +203,17 @@ img{
     .redes{
         font-size: 10px;
     }
+    .subtitulos{
+        font-size: 100%;
+    }
 
 
 
 }
-@media screen and (min-with: 601px) and (max-with: 1068px){
+@media screen and (min-width: 601px) and (max-width: 1068px){
     .arriba{
         font-size: 40%;}
-    .h1{    
+    h1{    
         font-size:150%;}
     .primerParrafo{
         font-size: 200%;
@@ -194,7 +225,13 @@ img{
     .redes{
         font-size: 20px;
     
+    }.subtitulos{
+        font-size: 100%;
     }
+.subtitulos{
+        font-size: 200%;
+    }
+
 
 
 }
