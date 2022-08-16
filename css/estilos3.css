@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@200 & family= Nunito+Sans:ital,wght@1,200 & display=swap');
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.pantalla{
+    background-image: url(../images/fondo\ 2.PNG);
+}
+
+
+h1{
+    font-weight: bolder;
+    font-size: 400%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color:rgb(235, 104, 57);
+    padding: 1em;
+    
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 300%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color:rgb(235, 104, 57);
+
+}
+h5{
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color:rgb(235, 104, 57);
+}  
+
+
+.primerParrafo{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 300%;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    color:black;
+    padding: 4%;
+}
+
+p{
+    line-height: 40px;
+    letter-spacing: 8px;
+    word-spacing: 8px;
+    text-transform: capitalize;
+}
+.formula{
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    height: auto;
+    width: 30%;
+    margin: 0 auto;
+    background-image:linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
+
+}
+.formulario{
+    
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color:black;
+    border: solid;
+    border-color: black;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    background-image:linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
+    
+}
+
+
+.arriba{
+    
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color:rgb(185, 114, 21);
+    padding: 1em;
+    
+}
+
+
+.subtitulos{
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: 'Barlow', sans-serif;
+    text-align: left;
+    color:rgb(235, 104, 57);
+    text-decoration: none;
+    padding: 1em;
+}
+
+.imagen-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.imagenBb{
+   
+    width: 30%;
+}
+
+.redes{
+    
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: 'Barlow', sans-serif;
+    text-align:center;
+    color:rgb(235, 104, 57);
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-image: linear-gradient(to top, #ffc75f, #e4ad4b, #ca9437, #b07c22, #96650b);
+    
+}
+
+
+.productos{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+img{
+    width: 40%;
+}
+.img2{  
+    
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.grid2{
+   
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    
+}
+.transform{
+    width: 240px;
+    height: 240px;
+    transform:rotate(270deg);
+
+}
+.transform2{transform:rotate(270deg)}
+
+
+
+.zoom:hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+.formu{
+    
+    transition: all 1s;
+}
+.formu:focus{
+    width:20% ;
+    font-size: 30%;
+}
+.logo{
+
+   position: absolute;
+   width: 10%; 
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+@media  (max-width: 600px){    
+    .arriba{
+        font-size: 20%;
+    }
+    h1{    
+        font-size:150%;}
+    .primerParrafo{
+        font-size: 100%;
+        padding: 2;
+    }
+    .formulario{
+        font-size: 20px;
+    }
+    .redes{
+        font-size: 10px;
+    }
+    .subtitulos{
+        font-size: 100%;
+    }
+
+
+
+}
+@media screen and (min-width: 601px) and (max-width: 1068px){
+    .arriba{
+        font-size: 40%;}
+    h1{    
+        font-size:150%;}
+    .primerParrafo{
+        font-size: 200%;
+        padding: 3;
+    }
+    .formulario{
+        font-size: 30px;
+    }
+    .redes{
+        font-size: 20px;
+    
+    }.subtitulos{
+        font-size: 100%;
+    }
+.subtitulos{
+        font-size: 200%;
+    }
+
+
+
+}
