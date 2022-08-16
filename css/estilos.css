@@ -12,25 +12,58 @@
     width: 30%;
     font-size: 50%; }
 
-h1 {
+.arriba {
   font-weight: bolder;
+  font-size: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 1em; }
+
+.subtitulos {
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none; }
+
+.imagen-inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.imagenBb {
+  width: 30%; }
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 30% 40% 30%; }
+
+.primerParrafo {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 250%;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  color: black;
+  padding: 4%; }
+
+h1 {
   font-size: 400%;
-  font-family: 'Barlow', sans-serif;
+  font-weight: bolder;
+  font-family: "Barlow", sans-serif;
   text-align: center;
   color: #eb6839;
   padding: 1em; }
 
 h2 {
+  font-size: 1000px;
   font-weight: bolder;
-  font-size: 300%;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   text-align: center;
   color: #eb6839; }
 
 h5 {
   font-weight: bolder;
   font-size: 200%;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   text-align: center;
   color: #eb6839; }
 
@@ -38,7 +71,7 @@ h5 {
   font-style: normal;
   font-weight: bolder;
   font-size: 250%;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-align: center;
   color: black;
   padding: 4%; }
@@ -79,15 +112,15 @@ p {
   font-size: 100%;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  color: #b97215;
+  color: linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
   padding: 1em; }
 
 .subtitulos {
   font-weight: bolder;
   font-size: 200%;
   font-family: 'Barlow', sans-serif;
-  text-align: left;
-  color: #eb6839;
+  text-align: center;
+  color: "Barlow", sans-serif;
   text-decoration: none;
   padding: 1em; }
 
@@ -105,7 +138,7 @@ p {
   font-size: 200%;
   font-family: 'Barlow', sans-serif;
   text-align: center;
-  color: #eb6839;
+  color: "Barlow", sans-serif;
   text-decoration: none;
   height: auto;
   width: auto;
