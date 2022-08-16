@@ -6,7 +6,11 @@
 .pantalla{
     background-image:url(../images/fondodefinitivo.jpg);
 }
-
+.formu{
+    transition: 1s all;
+        &:focus{width:30%;
+            font-size: 50%;}
+}
 
 h1{
     font-weight: bolder;
@@ -66,8 +70,9 @@ p{
     border: solid;
     border-color: black;
     height: auto;
-    width: 50%;
+    width: 50%; 
     margin: 0 auto;
+    padding: 10px;
     background-image:linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
 }
 .arriba{
@@ -140,13 +145,7 @@ img{
     transform: scale(2);
     transition: all 1s;
 }
-.formu{
-    transition: all 1s;
-}
-.formu:focus{
-    width:20% ;
-    font-size: 30%;
-}
+
 .logo{
    position: absolute;
    width: 10%; 

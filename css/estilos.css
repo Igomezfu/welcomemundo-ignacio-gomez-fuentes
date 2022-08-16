@@ -6,6 +6,12 @@
 .pantalla {
   background-image: url(../images/fondodefinitivo.jpg); }
 
+.formu {
+  transition: 1s all; }
+  .formu:focus {
+    width: 30%;
+    font-size: 50%; }
+
 h1 {
   font-weight: bolder;
   font-size: 400%;
@@ -65,6 +71,7 @@ p {
   height: auto;
   width: 50%;
   margin: 0 auto;
+  padding: 10px;
   background-image: linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607); }
 
 .arriba {
@@ -137,13 +144,6 @@ img {
 .zoom:hover {
   transform: scale(2);
   transition: all 1s; }
-
-.formu {
-  transition: all 1s; }
-
-.formu:focus {
-  width: 20%;
-  font-size: 30%; }
 
 .logo {
   position: absolute;
