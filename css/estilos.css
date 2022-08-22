@@ -83,6 +83,8 @@ p{
     text-align: center;
     color:rgb(185, 114, 21);
     padding: 1em;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .subtitulos{
     font-weight: bolder;
@@ -173,7 +175,10 @@ img{
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+.espaciado{
+    margin: top 3%;
+    margin-bottom: 3%;
+}
 @media  (max-width: 600px){    
     .arriba{
         font-size: 50%;
