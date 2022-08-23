@@ -12,25 +12,22 @@
 .pantalla{
     background-image: url(../images/fondo\ 2.PNG);
 }
-
-
 h1{
     font-weight: bolder;
     font-size: 400%;
     font-family: 'Barlow', sans-serif;
     text-align: center;
     color:rgb(235, 104, 57);
-    padding: 1em;
-    
+    padding: 1em; 
 }
-
 h2{
     font-weight: bolder;
-    font-size: 300%;
+    font-size: 200%;
     font-family: 'Barlow', sans-serif;
     text-align: center;
     color:rgb(235, 104, 57);
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 h5{
     font-weight: bolder;
@@ -39,18 +36,15 @@ h5{
     text-align: center;
     color:rgb(235, 104, 57);
 }  
-
-
 .primerParrafo{
     font-style: normal;
     font-weight: bolder;
-    font-size: 300%;
+    font-size: 200%;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     color:black;
-    padding: 4%;
+    padding: 2;
 }
-
 p{
     line-height: 40px;
     letter-spacing: 8px;
@@ -67,10 +61,8 @@ p{
     width: 30%;
     margin: 0 auto;
     background-image:linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
-
 }
 .formulario{
-    
     font-weight: bolder;
     font-size: 30px;
     font-family: 'Barlow', sans-serif;
@@ -82,10 +74,7 @@ p{
     width: 50%;
     margin: 0 auto;
     background-image:linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
-    
 }
-
-
 .arriba{
     
     font-weight: bolder;
@@ -94,10 +83,9 @@ p{
     text-align: center;
     color:rgb(185, 114, 21);
     padding: 1em;
-    
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
-
-
 .subtitulos{
     font-weight: bolder;
     font-size: 200%;
@@ -107,7 +95,6 @@ p{
     text-decoration: none;
     padding: 1em;
 }
-
 .imagen-inicio{
     display: flex;
     justify-content: center;
@@ -115,12 +102,9 @@ p{
     padding: 10px;
 }
 .imagenBb{
-   
     width: 30%;
 }
-
 .redes{
-    
     font-weight: bolder;
     font-size: 200%;
     font-family: 'Barlow', sans-serif;
@@ -131,57 +115,45 @@ p{
     width: auto;
     margin: auto;
     background-image: linear-gradient(to top, #ffc75f, #e4ad4b, #ca9437, #b07c22, #96650b);
-    
 }
-
-
 .productos{
+    padding: (100px 100px);
     display:flex;
     flex-direction:row;
     justify-content:center;
     align-items: center;
-    
 }
 
 img{
-    width: 40%;
+    width: 50%;
 }
 .img2{  
-    
     width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
-
-
-
 .grid2{
-   
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
-    
+
 }
 .transform{
     width: 240px;
     height: 240px;
     transform:rotate(270deg);
-
 }
-.transform2{transform:rotate(270deg)}
-
-
-
+.transform2{
+    transform:rotate(270deg)
+}
 .zoom:hover{
     transform: scale(2);
     transition: all 1s;
 }
 .formu{
-    
-    transition: all 1s;
+    transition:  all 1s;
 }
 .formu:focus{
     width:20% ;
@@ -194,35 +166,62 @@ img{
 }
 .grid3{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-columns: 40% 60%;
+    
 }
+.grid1{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.espaciado{
+    margin: top 3%;
+    margin-bottom: 3%;
 
-@media  (max-width: 600px){    
+}
+@media screen and (max-width: 600px){    
     .arriba{
-        font-size: 20%;
+        font-size: 50%;
     }
     h1{    
         font-size:150%;}
     .primerParrafo{
-        font-size: 100%;
-        padding: 2;
+        font-size: 60%;
+        padding: 1;
     }
-    .formulario{
-        font-size: 20px;
+    .formu{
+        font-size: 10px;
     }
     .redes{
         font-size: 10px;
     }
     .subtitulos{
-        font-size: 100%;
+        font-size: 130%;
     }
-
-
+    h5{font-size: 50%}
+    .img7{
+        width:400px;
+        height:300px;
+    } 
+    .zoom2{
+        width: 220px;
+        height: 180px;
+    }
+    .mapa{
+        width: 300px;
+        height: 200px;
+    }
+    .desborde{
+        width: 90%;
+        height: 25%;
+    }
+  
 
 }
 @media screen and (min-width: 601px) and (max-width: 1068px){
     .arriba{
-        font-size: 40%;}
+        font-size: 50%;}
     h1{    
         font-size:150%;}
     .primerParrafo{
@@ -234,14 +233,12 @@ img{
     }
     .redes{
         font-size: 20px;
-    
-    }.subtitulos{
+    }
+    .subtitulos{
         font-size: 100%;
-    }
-.subtitulos{
-        font-size: 200%;
+
     }
 
-
+    h5{font-size: 80%;}
 
 }
