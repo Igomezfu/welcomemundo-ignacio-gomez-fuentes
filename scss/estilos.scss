@@ -1,4 +1,5 @@
 @import "_variables.scss";
+@import "mixins.scss";
 
 *{
     margin: 0%;
@@ -26,9 +27,7 @@
         color: ($colors, titulo);
 }
 .imagen-inicio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-direc-center(row);
     padding: 10px;}
     .imagenBb{
         width: 30%;
@@ -46,7 +45,7 @@
         padding: 4%;}
 h1{
     
-    font-size: 400%;
+    font-size: 600%;
     font-weight: bolder;
     font-family: $sizeprin;
     text-align: center;
@@ -118,9 +117,7 @@ p{
     padding: 1em;
 }
 .imagen-inicio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-direc-center(row);
     padding: 10px;
 }
 .imagenBb{
@@ -139,20 +136,15 @@ p{
     background-image: linear-gradient(to top, #ffc75f, #e4ad4b, #ca9437, #b07c22, #96650b);
 }
 .productos{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items: center;
+    @include flex-direc-center(row);
+
 }
 img{
     width: 40%;
 }
 .img2{  
     width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-direc-center(column);
 }
 .grid2{
     display: grid;
