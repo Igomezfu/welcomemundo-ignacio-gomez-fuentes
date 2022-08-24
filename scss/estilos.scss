@@ -95,18 +95,10 @@ p{
     background-image:linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
 }
 .formulario{
+    @extend .formula;
     font-weight: bolder;
-    font-size: 30px;
-    font-family: 'Barlow', sans-serif;
-    text-align: center;
-    color:black;
-    border: solid;
-    border-color: black;
-    height: auto;
     width: 50%; 
-    margin: 0 auto;
     padding: 10px;
-    background-image:linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
 }
 .arriba{
     font-weight: bolder;
