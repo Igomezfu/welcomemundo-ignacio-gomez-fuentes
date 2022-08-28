@@ -24,7 +24,7 @@
         font-weight: bolder;
         text-align: center;
         text-decoration: none;
-        color: ($colors, titulo);
+        color: $colorencabezados;
 }
 .imagen-inicio{
     @include flex-direc-center(row);
@@ -41,7 +41,7 @@
         font-size: 250%;
         font-family: $sizesecun;
         text-align: center;
-        color:($colors, texto);
+        color:black;
         padding: 4%;}
 h1{
     
@@ -49,15 +49,15 @@ h1{
     font-weight: bolder;
     font-family: $sizeprin;
     text-align: center;
-    color:($colors, inicio);
-    padding: 1em;
+    color:map-get($estilos, titulo);
+    padding:map-get($estilos, padding);
 }
 h2{
     font-size: 60px;
     font-weight: bolder;
     font-family:$sizeprin;
     text-align: center;
-    color:($colors, titulo);
+    color:$colorencabezados;
 
 }
 h5{
@@ -65,15 +65,15 @@ h5{
     font-size: 200%;
     font-family: $sizeprin;
     text-align: center;
-    color:($colors, titulo);
+    color:$colorencabezados;
 }  
 .primerParrafo{
     font-style: normal;
     font-weight: bolder;
     font-size: 250%;
     font-family: $sizesecun;
-    text-align: center;
-    color:($colors, texto);
+    text-align: map-get($estilos,center);
+    color:black;
     padding: 4%;
 }
 p{
@@ -87,7 +87,7 @@ p{
     font-family: 'Barlow', sans-serif;
     text-align: center;
     border: solid;
-    border-color: ($colors, texto);
+    border-color: black;
     height: auto;
     width: 30%;
     margin: 0 auto;
@@ -104,8 +104,8 @@ p{
     font-size: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    color:($colors, titulo);
-    padding: 1em;
+    color:$colorencabezados;
+    padding: map-get($estilos, padding);
 }
 .subtitulos{
     font-weight: bolder;
@@ -157,7 +157,7 @@ img{
     transform:rotate(270deg);
 }
 .transform2{
-    transform:rotate(1800deg)}
+    transform:rotate(180deg)}
 .zoom:hover{
     transform: scale(2);
     transition: all 1s;
@@ -170,16 +170,18 @@ img{
 }
 .grid3{
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: auto;
+    grid-template-columns: 40% 60%;
 }
 @media  (max-width:600px){    
     .arriba{
-        font-size:20%;
+        font-size: 50%;
     }
     h1{    
-        font-size:150%;}
+        font-size:150%;
+    }
     .primerParrafo{
-        font-size:100%;
+        font-size:60%;
         padding: 2;
     }
     .formulario{
@@ -189,12 +191,29 @@ img{
         font-size:10px;
     }
     .subtitulos{
-        font-size:100%;
+        font-size: 130%;
+    }
+    h5 { font-size: 50% }  
+    .img7 {
+        width : 400px ;
+        height : 300px ;
+    }
+    .zoom2 {
+        width : 220px ;
+        height : 180px ;
+    }
+    .mapa {
+        width : 300px ;
+        height : 200px ;
+    }
+    .desborde {
+        width : 90% ;
+        height : 25% ;
     }
 }
 @media screen and (min-width:601px) and (max-width:1068px){
     .arriba{
-        font-size:40%;}
+        font-size:50%;}
     h1{    
         font-size:150%;}
     .primerParrafo{
@@ -210,6 +229,9 @@ img{
     }
     .subtitulos{
         font-size:200%;
+    }
+    h5{
+        font-size: 80%;
     }
 
 }
