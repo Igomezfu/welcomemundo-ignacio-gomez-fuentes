@@ -241,6 +241,9 @@ p {
   .img6 {
     width: 150px;
     height: 100px; }
+  .logo {
+    width: 150px;
+    height: 100px; }
   .grid2 {
     display: flex;
     flex-direction: column;
