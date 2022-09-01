@@ -61,7 +61,7 @@ h1{
 .subtitulos{
     font-weight: bolder;
     font-size: 200%;
-    font-family: 'Barlow', sans-serif;
+    font-family: $sizeprin;
     text-align: center;
     color:$sizeprin;
     text-decoration: none;
@@ -91,8 +91,8 @@ h3{
     font-size: 250%;
     font-family: $sizesecun;
     text-align: map-get($estilos,center);
-    color:black;
-    padding: 4%;
+    color:$colorparrafo;
+    padding: 2%;
     margin-top: 5%;
     margin-bottom: 5%;
     
@@ -156,13 +156,10 @@ h3{
     transform: scale(2);
     transition: all 1s;
 }
-.img7 {
-    width : 500px ;
-    height : 400px ;
-}
+
 .img6 {
-    width : 500px ;
-    height : 400px ;
+    width : 450px ;
+    height : 300px ;
 }
 .mapa{
     
@@ -183,24 +180,24 @@ h3{
 }
 @media  (max-width:600px){    
     .arriba{
-        font-size: 50%;
+        font-size: 60%;
     }
     h1{    
         font-size:150%;
     }
     .titulo{font-size:150%;}
     h2{
-        font-size: 120%;
+        font-size: 90%;
     }
-    .subtitulos2{font-size: 120%}
+    .subtitulos2{font-size: 90%}
     .primerParrafo{
-        font-size:70%;
+        font-size:90%;
         padding: auto;
         margin: auto;
     }
     .formula{
-        font-size: 60%;
-        width: 60%;
+        font-size: 70%;
+        width: 50%;
     }
     .redes{
         font-size:10px;
@@ -235,11 +232,6 @@ h3{
     .img6 {
         width : 150px ;
         height : 100px;
-    }
-    .logo{
-        width : 150px ;
-        height : 100px;
-        
     }
     .grid2{
         @include flex-direc-center(column)
