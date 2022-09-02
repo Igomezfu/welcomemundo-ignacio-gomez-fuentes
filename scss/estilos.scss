@@ -164,14 +164,15 @@ h3{
     width : 450px ;
     height : 300px ;
 }
-.mapa{
+.centrado{
     
-    @include flex-direc-center(row); 
+    @include flex-direc-center(column); 
 }
 .logo{
-    width: 100%;
-    margin-bottom: 3%;
-    @include flex-direc-center(row)
+    @include flex-direc-center(row);
+    width: 4%;
+    margin: 2% 2%;
+    
 }
 .grid3{
     display: grid;
@@ -202,9 +203,7 @@ h3{
         font-size: 70%;
         width: 50%;
     }
-    .redes{
-        font-size:10px;
-    }
+
     .subtitulos{
         font-size: 130%;
     }
