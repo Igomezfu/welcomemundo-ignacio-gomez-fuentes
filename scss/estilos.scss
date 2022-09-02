@@ -166,12 +166,12 @@ h3{
 }
 .centrado{
     
-    @include flex-direc-center(column); 
+    @include flex-direc-center(row); 
 }
-.logo{
+.redes{
     @include flex-direc-center(row);
     width: 4%;
-    margin: 2% 2%;
+    margin: 2% 2%;  
     
 }
 .grid3{

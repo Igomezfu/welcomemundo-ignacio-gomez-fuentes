@@ -176,12 +176,12 @@ h3 {
 
 .centrado {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   grid-template-rows: auto; }
 
-.logo {
+.redes {
   display: flex;
   flex-direction: row;
   align-items: center;
