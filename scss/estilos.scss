@@ -154,7 +154,7 @@ h3{
 }
 .redes{
     @include flex-direc-center(row);
-    width: 4%;
+    width: 80px;
     margin: 2% 2%;  
     
 }
@@ -204,6 +204,9 @@ h3{
         width : 200px ;
         height : 100px ;
     }
+    .redes{
+        width: 40px ;
+    }
     .desborde {
         width : 90% ;
         height : 25% ;
@@ -241,6 +244,9 @@ h3{
     }
     h3{
         font-size: 80%;
+    }
+    .redes{
+        width: 60px ;
     }
 
 }

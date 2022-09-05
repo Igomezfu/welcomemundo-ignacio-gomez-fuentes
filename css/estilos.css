@@ -162,7 +162,7 @@ h3 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 4%;
+  width: 80px;
   margin: 2% 2%; }
 
 .grid3 {
@@ -207,6 +207,8 @@ h3 {
   .mapa {
     width: 200px;
     height: 100px; }
+  .redes {
+    width: 40px; }
   .desborde {
     width: 90%;
     height: 25%; }
@@ -240,4 +242,6 @@ h3 {
   .subtitulos {
     font-size: 200%; }
   h3 {
-    font-size: 80%; } }
+    font-size: 80%; }
+  .redes {
+    width: 60px; } }
