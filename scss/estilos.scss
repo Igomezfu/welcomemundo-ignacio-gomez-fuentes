@@ -77,10 +77,10 @@ h3{
 }  
 .primerParrafo{
     font-style: normal;
-    font-weight: bolder;
     font-size: 250%;
     font-family: $sizesecun;
-    text-align: map-get($estilos,center);
+    text-align: center;
+    font-weight: bolder;
     color:$colorparrafo;
     padding: 2%;
     margin-top: 5%;
