@@ -37,14 +37,6 @@
 .grid3{
     display: grid;
     grid-template-columns: 60% 40%;}
-    .primerParrafo{
-        font-style: normal;
-        font-weight: bolder;
-        font-size: 250%;
-        font-family: $sizesecun;
-        text-align: center;
-        color:black;
-        padding: 4%;}
 h1{
     font-size: 500%;
     font-weight: bolder;
@@ -156,11 +148,11 @@ h3{
     transform: scale(2);
     transition: all 1s;
 }
-.img7 {
+.imgGrande {
     width : 500px ;
     height : 400px ;
 }
-.img6 {
+.imgProductos{
     width : 450px ;
     height : 300px ;
 }
