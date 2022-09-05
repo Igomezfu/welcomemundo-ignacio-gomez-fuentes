@@ -164,8 +164,11 @@ h3{
     grid-template-columns: 60% 40%;
 }
 .grid1{
-    @include flex-direc-center(row)
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+    
 @media  (max-width:600px){    
     .arriba{
         font-size: 60%;
@@ -225,6 +228,10 @@ h3{
     .grid2{
         @include flex-direc-center(column)
     }
+    .grid1{
+        @include flex-direc-center(column)
+    }
+
 }
 @media screen and (min-width:601px) and (max-width:1068px){
     .arriba{
