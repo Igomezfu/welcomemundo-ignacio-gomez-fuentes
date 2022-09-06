@@ -122,8 +122,8 @@ h3 {
   justify-content: center; }
 
 .imgbebe {
-  width: 20%;
-  height: 20%; }
+  width: 30%;
+  height: 30%; }
 
 .imgEstilos {
   padding: 1%;
@@ -179,7 +179,7 @@ h3 {
   .arriba {
     font-size: 60%; }
   .titulo {
-    font-size: 200%; }
+    font-size: 180%; }
   h2 {
     font-size: 110%; }
   .subtitulos2 {
@@ -213,7 +213,7 @@ h3 {
     justify-content: center; }
   .imagen-inicio {
     width: 100%;
-    height: 50%; }
+    height: auto; }
   .imgProductos {
     width: 200px;
     height: 150px; }
