@@ -8,10 +8,13 @@
   background-image: url(../images/fondodefinitivo.png); }
 
 .formu {
-  transition: 1s all; }
+  width: auto;
+  height: auto;
+  transition: 2s all; }
   .formu:focus {
-    width: 30%;
-    font-size: 50%; }
+    width: auto;
+    height: auto;
+    font-size: 120%; }
 
 .arriba {
   font-weight: bolder;
@@ -102,6 +105,10 @@ h3 {
   background-image: linear-gradient(to bottom, #ff6e00, #e56900, #cd6300, #b55d03, #9f5607);
   padding: 1rem; }
 
+.desborde {
+  width: auto;
+  height: auto; }
+
 .formulario {
   font-weight: bolder;
   width: 50%;
@@ -144,8 +151,8 @@ h3 {
   height: auto; }
 
 .zoom:hover {
-  transform: scale(1);
-  transition: all 1s; }
+  transform: scale(2);
+  transition: all 2s; }
 
 .imgGrande {
   width: 500px;
@@ -181,7 +188,10 @@ h3 {
 
 @media (max-width: 600px) {
   .arriba {
-    font-size: 60%; }
+    font-size: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right; }
   .titulo {
     font-size: 180%; }
   h2 {
@@ -198,7 +208,7 @@ h3 {
   .subtitulos {
     font-size: 140%; }
   h3 {
-    font-size: 80%; }
+    font-size: 90%; }
   .imgGrande {
     width: 300px;
     height: 200px; }
