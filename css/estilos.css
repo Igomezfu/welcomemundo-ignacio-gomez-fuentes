@@ -178,39 +178,34 @@ h3 {
 @media (max-width: 600px) {
   .arriba {
     font-size: 60%; }
-  h1 {
-    font-size: 150%; }
   .titulo {
-    font-size: 150%; }
+    font-size: 200%; }
   h2 {
-    font-size: 90%; }
+    font-size: 110%; }
   .subtitulos2 {
-    font-size: 90%; }
+    font-size: 100%; }
   .primerParrafo {
-    font-size: 90%;
+    font-size: 100%;
     padding: auto;
     margin: auto; }
   .formula, .formulario {
-    font-size: 70%;
-    width: 50%; }
+    font-size: 80%;
+    width: 60%; }
   .subtitulos {
-    font-size: 130%; }
+    font-size: 140%; }
   h3 {
     font-size: 75%; }
   .imgGrande {
     width: 300px;
     height: 200px; }
-  .zoom2 {
-    width: 220px;
-    height: 180px; }
   .mapa {
-    width: 200px;
-    height: 100px; }
+    width: 300px;
+    height: 200px; }
   .redes {
     width: 40px; }
   .desborde {
-    width: 90%;
-    height: 25%; }
+    width: 100%;
+    height: 30%; }
   .grid3 {
     display: flex;
     flex-direction: column;
@@ -218,10 +213,10 @@ h3 {
     justify-content: center; }
   .imagen-inicio {
     width: 100%;
-    height: 70%; }
+    height: 50%; }
   .imgProductos {
-    width: 150px;
-    height: 100px; }
+    width: 200px;
+    height: 150px; }
   .grid2 {
     display: flex;
     flex-direction: column;
@@ -233,19 +228,52 @@ h3 {
     align-items: center;
     justify-content: center; } }
 
-@media screen and (min-width: 601px) and (max-width: 1068px) {
+@media (min-width: 601px) and (max-width: 1068px) {
   .arriba {
-    font-size: 50%; }
-  h1 {
-    font-size: 150%; }
-  .primerParrafo {
-    font-size: 200%;
-    padding: 3; }
-  .formulario {
-    font-size: 30px; }
-  .subtitulos {
-    font-size: 200%; }
-  h3 {
     font-size: 80%; }
+  .titulo {
+    font-size: 300%; }
+  h2 {
+    font-size: 130%; }
+  .subtitulos2 {
+    font-size: 130%; }
+  .primerParrafo {
+    font-size: 120%;
+    padding: auto;
+    margin: auto; }
+  .formula, .formulario {
+    font-size: 70%;
+    width: 50%; }
+  .subtitulos {
+    font-size: 170%; }
+  h3 {
+    font-size: 120%; }
+  .imgGrande {
+    width: 400px;
+    height: 300px; }
   .redes {
-    width: 60px; } }
+    width: 85px; }
+  .desborde {
+    width: 100%;
+    height: 40%; }
+  .grid3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .imagen-inicio {
+    width: 100%;
+    height: 70%; }
+  .imgProductos {
+    width: 250px;
+    height: 175px; }
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .grid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; } }
