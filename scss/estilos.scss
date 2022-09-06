@@ -102,10 +102,6 @@ h3{
     padding: map-get($estilos, padding);
 }
 
-.desborde{
-    width: auto;
-    height: auto;
-}
 .formulario{
     @extend .formula;
     font-weight: bolder;
