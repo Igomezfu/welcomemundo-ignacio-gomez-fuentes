@@ -12,15 +12,7 @@
     background-image:url(../images/fondodefinitivo.png);
 }
 
-.formu{
-    width: auto;
-    height: auto;
-    transition: 2s all;
-        &:focus{
-            width: auto;
-            height:auto;
-            font-size: 120%;}
-}
+
 .arriba{
     font-weight: bolder;
     font-size: 100%;
