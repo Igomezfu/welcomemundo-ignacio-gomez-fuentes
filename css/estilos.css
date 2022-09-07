@@ -19,16 +19,6 @@
   text-decoration: none;
   color: #186444; }
 
-.imagen-inicio {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 10px; }
-
-.imagenBb {
-  width: 30%; }
-
 h1 {
   font-size: 500%;
   font-weight: bolder;
@@ -118,8 +108,8 @@ h3 {
   justify-content: center; }
 
 .imgbebe {
-  width: 30%;
-  height: 30%; }
+  width: 20%;
+  height: 20%; }
 
 .imgEstilos {
   padding: 1%;

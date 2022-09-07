@@ -24,13 +24,6 @@
         text-decoration: none;
         color: $colorencabezados;
 }
-.imagen-inicio{
-    @include flex-direc-center(row);
-    padding: 10px;}
-    .imagenBb{
-        width: 30%;
-    }
-
 h1{
     font-size: 500%;
     font-weight: bolder;
@@ -120,8 +113,8 @@ h3{
 .productos{
     @include flex-direc-center(row);}
     .imgbebe{
-        width: 30%;
-        height: 30%}
+        width: 20%;
+        height: 20%}
 
 .imgEstilos{  
     padding: 1%;
